@@ -135,7 +135,7 @@ class TARS(Robot):
 
 	default_answer = 'I have no idea what you are talking about'
 
-	def __init__(self, func = None):
+	def __init__(self, func=None):
 		self.func = func
 
 	def __call__(self, msg):
